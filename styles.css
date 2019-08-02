@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('./Assets/images/background1.jpg');
+    height: 100vh;
+}
+
+.profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+.profile-name {
+    font-size: 3em;
+    font-family: 'Rancho', cursive;
+}
+
+.profile-city {
+    color: lightgray;
+    font-family: 'Pompiere', cursive;
+    font-size: 1.5em;
+}
+
+/* @media (max-width: 975px){
+    .profile-name {
+        font-size: 2.0em;
+    }
+} */
+@media (max-width: 600px){
+    .profile-name {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 400px){
+    .profile-name {
+        width: 161px;
+    }
+    .profile-photo {
+        width: 130px;
+        height: 130px;
+    }
+}
