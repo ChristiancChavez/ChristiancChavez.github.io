@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-image: url('./Assets/images/background1.jpg');
     height: 100vh;
+    overflow: hidden;
 }
 
 .profile {
